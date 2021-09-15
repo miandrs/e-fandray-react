@@ -1,0 +1,2 @@
+(this["webpackJsonpe-fandray"]=this["webpackJsonpe-fandray"]||[]).push([[0],{3:function(e,r,s){"use strict";s.r(r);var n=s(0),t=s(2);Object.defineProperty(exports,"__esModule",{value:!0}),t.render(n.createElement("h1",null,"This is JSX"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.8dc15cd0.chunk.js.map

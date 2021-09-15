@@ -1,0 +1,22 @@
+.card {
+	height: 10em;
+	width: 20%;
+	border-radius: 2em;
+	text-align: center;
+	font-color: #000;
+	margin: 1em;
+}
+#createStory {
+	padding: 0.1em;
+	height: 4em;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: -1em;
+	width: 8.6em;
+}
+#actuality {
+	margin-top: 0.8em;
+}
+.story {
+	margin-left: -0.68em;
+}
