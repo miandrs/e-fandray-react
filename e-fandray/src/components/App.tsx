@@ -1,8 +1,6 @@
 import '../styles/Header.css';
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Link, Switch, NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { Chat } from './Chat';
 import { Header } from './Header';
 import { Home } from './Home';
@@ -38,4 +36,5 @@ class Homes extends React.Component {
     ) 
   }
 }
+
 export { App }
