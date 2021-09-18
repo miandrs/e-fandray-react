@@ -1,10 +1,8 @@
 import '../styles/Header.css';
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./globalStyles";
 import { lightTheme, darkTheme } from "./Themes";
-import { BrowserRouter, Route, Link, Switch, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
 function Header() {
@@ -12,9 +10,9 @@ function Header() {
   const [isOpen, setOpen] = useState(false);
 
   // permet le changement de theme
-  const [theme, setTheme] = useState("🌞");
+  const [theme, setTheme] = useState("🌛");
   const themeToggler = () => {
-    theme === "🌞" ? setTheme("🌛"): setTheme("🌞")
+    theme === "🌛" ? setTheme("🌞"): setTheme("🌛")
   }
   return(  
     <header className="col-lg-12">
@@ -30,12 +28,10 @@ function Header() {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item"><input type="text" placeholder="recherche" className="search" id="global-search" /></li> 
                 <li className="nav-item active"><NavLink className="nav-link" activeClassName="is-active" to="/" id="accueil">Accueil</NavLink></li>
-                <li className="nav-item active"><NavLink className="nav-link" activeClassName="is-active" to="/profil" id="profil">Profil</NavLink></li>
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="is-active" to="/discussion" id="message">Message</NavLink></li>
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="is-active" to="/notification" id="notification">Notification</NavLink></li>
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="is-active" to="/video" id="video">Video</NavLink></li> 
+                <li className="nav-item active"><NavLink className="nav-link" activeClassName="is-active" to="/profile" id="profil">Profil</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" activeClassName="is-active" to="/discussion" id="message">Message</NavLink></li> 
                 <li className="nav-item">
-                  <ThemeProvider theme={theme === "🌞" ? lightTheme: darkTheme}>
+                  <ThemeProvider theme={theme === "🌛" ? darkTheme: lightTheme}>
                     <>
                     <GlobalStyles/>
                     <div className="DarkMode">
