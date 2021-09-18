@@ -3,7 +3,6 @@ import Pc from '../assets/images/FB_IMG_1600264572686.jpg';
 import Pc2 from '../assets/images/Screenshot_2020-08-04-06-23-35.png';
 import Pdp2 from '../assets/images/pdp2.jpg';
 import '../styles/Home.css';
-import '../../node_modules/video-react/dist/video-react.css';
 import Pdp3 from '../assets/images/test.jpg';
 import imgRegistry from '../assets/images/windows-registry-logo.png';
 import { NavLink } from 'react-router-dom';
