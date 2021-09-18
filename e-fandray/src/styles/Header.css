@@ -1,0 +1,30 @@
+header {
+  background-color: rgb(36, 34, 34);
+}
+#logo, #accueil, #profil, #message {
+  color: rgb(231, 231, 231);
+}
+#logo, #profil, #message {
+  margin-left: 2em;
+}
+#accueil {
+  margin-left: 12em;
+}
+#logo, #global-search {
+  margin-left: 0;
+}
+#logo:hover, #accueil:hover, #profil:hover, #message:hover {
+  color: #ffffff;
+}
+.search {
+  height: 2.5em;
+  width: 15em;
+  border-radius: 1.5em;
+  text-align: center;
+  font-size: 14px;
+} 
+#setTheme {
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}

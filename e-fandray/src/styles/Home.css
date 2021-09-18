@@ -1,0 +1,58 @@
+.card {
+	height: 10em;
+	width: 20%;
+	border-radius: 2em;
+	text-align: center;
+	margin: 0.66em;
+}
+#createStory {
+	padding: 0.1em;
+	height: 4em;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: -1em;
+	width: 10.2em;
+}
+#actuality {
+	margin-top: 0.8em;
+}
+.story {
+	margin-left: -0.68em;
+}
+#actuality-parent {
+	overflow: hidden;
+}
+#actuality-content {
+	overflow-y: scroll;
+	margin-top: 0.5em;
+	margin-right: -50px;
+	padding-right: 50px;
+	max-height: 80vh;
+}
+#publication {
+	padding: 0 1em 1em 1em;
+}
+#actuality-parent, #publication {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#publication, #actuality-content {
+	border-radius: 0.5em;
+	background: linear-gradient(rgba(189, 187, 187, 0.123), rgba(129, 129, 129, 0.144)), url("../assets/images/background.png");
+}
+.publication {
+	border-radius: 1.5em;
+	height: 2.6em;
+	width: 85%;
+	text-align: center;
+}
+.pub {
+	padding: 1.5em;
+}
+.pub-pofil {
+	margin-left: 1.5em;
+}
+#Myprofil {
+	text-decoration: none;
+}
